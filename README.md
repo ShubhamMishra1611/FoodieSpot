@@ -91,19 +91,23 @@ This project avoids using built-in tool-calling features of LLM frameworks or AP
 This approach forces the LLM to act as a reasoning engine that translates natural language into a structured API call (represented by the JSON), which the backend code can then execute reliably.
 
 ## Example Conversations
-
-*(Please replace the placeholders below with actual screenshots or formatted text examples from your application)*
-
 ### Scenario 1: General Chat
-![General Chat](.\Examples\conversation_images\general\general_chat_test.png)
+![General Chat](./Examples/conversation_images/general/general_chat_test.png)
+
 ### Scenario 2: Handling Missing Information
-![Image 1](.\Examples\conversation_images\handling_missing_info\handling_missing_info.png) <br> ![Image 2](.\Examples\conversation_images\handling_missing_info\handling_missing_info_terminal_response.png)
+![Image 1](./Examples/conversation_images/handling_missing_info/handling_missing_info.png) <br> 
+![Image 2](./Examples/conversation_images/handling_missing_info/handling_missing_info_terminal_response.png)
+
 ### Scenario 3: Context History
-![Image 1](.\Examples\conversation_images\context_history\context_history_test.png) <br> ![Image 2](.\Examples\conversation_images\context_history\context_history_terminal_response.png)
+![Image 1](./Examples/conversation_images/context_history/context_history_test.png) <br> 
+![Image 2](./Examples/conversation_images/context_history/context_history_terminal_response.png)
+
 ### Scenario 4: Booking Tool
-![Image 1](.\Examples\conversation_images\booking_tool\booking_tool_test.png) <br> ![Image 2](.\Examples\conversation_images\booking_tool\booking_tool_terminal_response.png)
+![Image 1](./Examples/conversation_images/booking_tool/booking_tool_test.png) <br> 
+![Image 2](./Examples/conversation_images/booking_tool/booking_tool_terminal_response.png)
+
 ### Scenario 5: Out of Context Conversation
-![Image 1](.\Examples\conversation_images\out_of_context\out_of_context_test.png)
+![Image 1](./Examples/conversation_images/out_of_context/out_of_context_test.png)
 
 
 ## Business Strategy Summary
