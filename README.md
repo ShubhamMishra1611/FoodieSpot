@@ -77,6 +77,10 @@ A key aspect of this project is demonstrating an understanding of **LLM-driven t
     ```
     This will start the Streamlit server, and the application should open in your default web browser.
 
+[![Powered by Groq for fast inference.](https://groq.com/wp-content/uploads/2024/03/PBG-mark1-color.svg)](https://groq.com)
+
+
+
 ## Prompt Engineering for Tool Calling
 
 This project avoids using built-in tool-calling features of LLM frameworks or APIs to demonstrate the core principles from scratch. The interaction logic relies heavily on prompt engineering within `agent_logic.py`:
